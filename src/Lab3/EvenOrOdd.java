@@ -7,9 +7,9 @@ public class EvenOrOdd {
 		Scanner scnr = new Scanner(System.in);
 		
 		System.out.println("Enter a number 1 through 100: ");
-		int num = scnr.nextInt();
+		int num = scnr.nextInt();//user input
 		
-		if ( num % 2 == 0 && num > 2 && num <= 25)
+		if ( num % 2 == 0 && num > 2 && num <= 25)//program will run according to rules list
 	         System.out.println(num + " is even and less than 25");
 		else if (num % 2 == 0 && num >= 26 && num <= 60)
 			System.out.println(num + " is Even");
